@@ -424,8 +424,14 @@ Additional extensions attempted during recovery efforts include:
 
 #### Reference & Analysis Files (Data Set 9)
 
-The following files are provided for **transparency, reconstruction, and community verification**.
-All files live under: [`/notes/DS09/`](notes/DS09/)
+The following references support **transparency, reconstruction, and community verification**.
+The three missing-content/URL lists below are tracked locally in [`notes/DS09/`](notes/DS09/).
+The eleven duplicate, validation and additional-analysis reports are **upstream
+references**, not files bundled in this fork. Their links are pinned to upstream
+commit `047b71a` (checked 2026-10-16) so they open reproducible versions rather
+than missing local paths. Descriptions of cleanup and validation below are
+historical upstream reports, not new operations or independently verified findings.
+No source datasets were changed by this navigation repair.
 
 
 
@@ -449,13 +455,13 @@ These files document duplicate detection runs.
 **One copy of each duplicate was removed** during cleanup.
 
 * **Compact JSON:**
-  [`results_duplicates_compact.json`](notes/DS09/results_duplicates_compact.json)
+  [`results_duplicates_compact.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_duplicates_compact.json)
 
 * **Pretty-printed JSON:**
-  [`results_duplicates_pretty.json`](notes/DS09/results_duplicates_pretty.json)
+  [`results_duplicates_pretty.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_duplicates_pretty.json)
 
 * **Plain text report:**
-  [`results_duplicates.txt`](notes/DS09/results_duplicates.txt)
+  [`results_duplicates.txt`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_duplicates.txt)
 
 
 ##### Broken File Checks (No Action Taken)
@@ -464,13 +470,13 @@ These files document files that failed validation checks.
 **No deletions or modifications were performed** based on these results.
 
 * **Compact JSON:**
-  [`results_broken_files_compact.json`](notes/DS09/results_broken_files_compact.json)
+  [`results_broken_files_compact.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_broken_files_compact.json)
 
 * **Pretty-printed JSON:**
-  [`results_broken_files_pretty.json`](notes/DS09/results_broken_files_pretty.json)
+  [`results_broken_files_pretty.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_broken_files_pretty.json)
 
 * **Plain text report:**
-  [`results_broken_files.txt`](notes/DS09/results_broken_files.txt)
+  [`results_broken_files.txt`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_broken_files.txt)
 
 
 ##### Invalid / Unexpected File Extensions (No Action Taken)
@@ -479,22 +485,22 @@ These files document files with extensions inconsistent with expected DS9 conten
 **No action was taken**; results are provided for review only.
 
 * **Compact JSON:**
-  [`results_bad_extensions_compact.json`](notes/DS09/results_bad_extensions_compact.json)
+  [`results_bad_extensions_compact.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_bad_extensions_compact.json)
 
 * **Pretty-printed JSON:**
-  [`results_bad_extensions_pretty.json`](notes/DS09/results_bad_extensions_pretty.json)
+  [`results_bad_extensions_pretty.json`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_bad_extensions_pretty.json)
 
 * **Plain text report:**
-  [`results_bad_extensions.txt`](notes/DS09/results_bad_extensions.txt)
+  [`results_bad_extensions.txt`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/results_bad_extensions.txt)
 
 
 ##### Additional Analysis
 
 * **Non-PDF files present in Data Set 9:**
-  [`Non-PDF in Epstein Files - Data Set 9.csv`](notes/DS09/Non-PDF%20in%20Epstein%20Files%20-%20Data%20Set%209.csv)
+  [`Non-PDF in Epstein Files - Data Set 9.csv`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/Non-PDF%20in%20Epstein%20Files%20-%20Data%20Set%209.csv)
 
 * **Corrupt media analysis (informational):**
-  [`corrupt.txt`](notes/DS09/corrupt.txt)
+  [`corrupt.txt`](https://github.com/yung-megafone/Epstein-Files/blob/047b71a49abf1c0e288ff7cf6f27d0bed0166994/notes/DS09/corrupt.txt)
 
   > Contains extracted metadata / partial information from a corrupt video file.
   > Included for transparency; file integrity could not be recovered.
